@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "VERCEL_API_RESPONSE_TIMEOUT": "100000"
+    }
+  }
+}
