@@ -14,7 +14,7 @@ This API endpoint allows you to fetch historical prices from Chainlink price fee
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/linkpoolio/historical-prices-api.git
+git clone https://github.com/smartcontractkit/quickstarts-historical-prices-api.git
 ```
 
 ### 2. Install the dependencies:
