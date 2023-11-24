@@ -45,7 +45,33 @@ You can now access the API at `http://localhost:3000/api/price`.
 
 Replace `3000` with the port number if you have a different one in your setup.
 
-## IV. API Endpoint
+## IV. Docker Installation
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/smartcontractkit/quickstarts-historical-prices-api.git
+```
+
+### 2. Build the Dockerfile
+```bash
+docker build -t chainlink-historical-api .```
+
+### 3. Start the Docker container
+```bash
+docker run -p 3000:3000 chainlink-historical-api```
+
+### 4. Access UI App:
+
+You can now access the UI app at `http://localhost:3000`.
+
+### 5. Access the API Endpoint:
+
+You can now access the API at `http://localhost:3000/api/price`.
+
+Replace `3000` with the port number if you have a different one in your setup.
+
+## V. API Endpoint
 
 ## Endpoint
 
